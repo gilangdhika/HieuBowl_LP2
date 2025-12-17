@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="public/style.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 
@@ -18,8 +24,7 @@
 
     <header>
         <div class="logo">
-            <span class="logo-blue">Hieu</span> <span class="logo-red">Bowl</span>
-            <div class="logo-sub">Vietnamese Kitchen</div>
+            <img src="public/assets/logo.png" alt="Hieu Bowl Logo" class="logo-image">
         </div>
         <nav>
             <a href="#">Pho Noodle Soup</a>
@@ -54,7 +59,7 @@
     <div
         style="width:100%;display:flex;justify-content:center;align-items:center;position:relative;height:100px;margin-bottom:0;">
         <div
-            style="position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg,#daedf7 50%,#ffffff 50%);z-index:0;">
+            style="position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg,#d6ebf6 50%,#ffffff 50%);z-index:0;">
         </div>
         <a href="#" class="btn btn-pill"
             style="position:relative;z-index:1;display:inline-flex;align-items:center;gap:8px;">
@@ -69,14 +74,15 @@
         <div>
             <h2>ABOUT</h2>
             <span class="about-script">hieu bowl</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, numquam?</p>
+            <p>Experience authentic Vietnamese cuisine with fresh ingredients and traditional flavors in every bowl.</p>
             <a href="#" class="btn btn-pill btn-pill-red">View Our Menu</a>
         </div>
     </section>
 
     <section class="menu-section">
         <h2 class="section-title white">OUR MENU</h2>
-        <p class="menu-desc">Lorem ipsum dolor sit amet is simply dummy text of the printing and type setting industry.
+        <p class="menu-desc">Discover our selection of fresh, healthy Vietnamese rice bowls made with premium
+            ingredients.
         </p>
         <div class="menu-list">
             <div class="menu-item" style="position:relative;">
@@ -126,13 +132,13 @@
     <section class="testimonials">
         <div class="testimonials-inner">
             <div class="testimonial-visual">
-                <img src="public/assets/testimonial-bowl.png" alt="decorative food"
-                    class="testimonial-food" />
+                <img src="public/assets/testimonial-bowl.png" alt="decorative food" class="testimonial-food" />
                 <div class="quote-bubble-img-wrapper">
                     <img src="public/assets/quote-bubble.png" alt="quote bubble" />
                     <div class="quote-bubble-content">
-                        <p class="quote-text">“Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”</p>
+                        <p class="quote-text">"The flavors are incredible! Every bowl is packed with fresh vegetables
+                            and authentic Vietnamese spices. Hieu Bowl has become my go-to spot for healthy and
+                            delicious meals."</p>
                         <div class="quote-author">
                             <img src="public/assets/malte kramer.jpg" alt="author" class="author-img" />
                             <div class="author-meta">
@@ -145,9 +151,9 @@
             </div>
 
             <div class="testimonial-copy">
-                <h2>Our Happy Customers</h2>
-                <p class="muted">Lorem ipsum dolor sit amet is simply dummy text of the printing and type setting
-                    industry.</p>
+                <h2>Our Happy<br>Customers</h2>
+                <p class="muted">Hear what our customers have to say about their experience with our authentic
+                    Vietnamese rice bowls.</p>
 
                 <div class="testimonial-controls">
                     <button class="arrow prev">←</button>
@@ -159,21 +165,22 @@
     </section>
 
     <footer>
+        <img src="public/assets/tcd.png" alt="tcd" class="segibujik" />
+        <img src="public/assets/bayang.png" alt="buah" class="awang-awang" />
         <img src="public/assets/chili.png" alt="chili" class="decor-pepper" />
         <!-- Footer CTA band -->
         <div class="footer-cta">
             <div class="footer-cta-inner">
                 <div class="cta-text">
                     <h3>Ready to get started?</h3>
-                    <p>Get a guided demo Lorem ipsum dolor sit amet</p>
+                    <p>Sign up for exclusive offers and get updates on new menu items</p>
                 </div>
 
                 <form class="cta-form" action="#" method="GET">
                     <div class="cta-input-wrapper">
-                        <input type="email" name="email" placeholder="Email address"
-                            aria-label="Email address" />
-                        <span class="cta-getstarted">GET STARTED <img src="public/assets/enter.png"
-                                alt="Enter Icon" class="getstarted-icon" /></span>
+                        <input type="email" name="email" placeholder="Email address" aria-label="Email address" />
+                        <span class="cta-getstarted">GET STARTED <img src="public/assets/enter.png" alt="Enter Icon"
+                                class="getstarted-icon" /></span>
                     </div>
                 </form>
 
@@ -187,9 +194,11 @@
         <!-- Footer link area -->
         <div class="footer-links">
             <div class="footer-inner">
-                <div class="footer-col">
+                <div class="footer-col footer-email">
+                    info@example.com
+                </div>
 
-                    <h4>About Us</h4>
+                <div class="footer-col">
                     <ul>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
@@ -199,22 +208,22 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Company</h4>
                     <ul>
-                        <li><a href="#">Lorem</a></li>
-                        <li><a href="#">ipsum</a></li>
-                        <li><a href="#">Dolor</a></li>
-                        <li><a href="#">Sit amet</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Rice Bowls</a></li>
+                        <li><a href="#">Pho Noodle Soup</a></li>
+                        <li><a href="#">Salad Bowls</a></li>
+                        <li><a href="#">Beverages</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Resources</h4>
                     <ul>
-                        <li><a href="#">Lorem</a></li>
-                        <li><a href="#">ipsum</a></li>
-                        <li><a href="#">Dolor</a></li>
-                        <li><a href="#">lipsum dolor</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Franchise</a></li>
                     </ul>
                 </div>
             </div>
@@ -223,7 +232,7 @@
         <!-- Bottom copyright bar -->
         <div class="bottom-bar">
             <div class="bottom-inner">
-                <div class="copyright">© 2025 All right reserved Inc.</div>
+                <div class="copyright">© 2019 All right reserved Inc.</div>
                 <div class="bottom-links">
                     <a href="#">Privacy</a>
                     <a href="#">Accessibility</a>
